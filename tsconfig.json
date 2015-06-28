@@ -1,0 +1,31 @@
+{
+    "version": "1.5.0-alpha",
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "!./node_modules/**/*.ts"
+    ],
+    "files": [
+        "./src/server/App.ts",
+        "./src/server/AuthServer.ts",
+        "./src/server/Server.ts",
+        "./src/server/api/Sample.ts",
+        "./src/server/util/Pass.ts",
+        "./typings/body-parser/body-parser.d.ts",
+        "./typings/express-session/express-session.d.ts",
+        "./typings/express/express.d.ts",
+        "./typings/mime/mime.d.ts",
+        "./typings/node/node.d.ts",
+        "./typings/serve-static/serve-static.d.ts",
+        "./typings/tsd.d.ts"
+    ]
+}

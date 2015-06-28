@@ -1,6 +1,7 @@
 module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-typescript');
   grunt.loadNpmTasks('grunt-contrib-clean');
+  grunt.loadNpmTasks('grunt-run');
 
   grunt.initConfig({
     typescript: {
@@ -17,6 +18,14 @@ module.exports = function(grunt) {
       all: {
         src : ['src/**/*.js']
       }
+    },
+
+    run : {
+      server : {
+        args:['./src/server/App.js']
+      }
     }
-  })
+  });
+  
+  grunt.registerTask('start',['clean:all','typescript','run:server']);
 }

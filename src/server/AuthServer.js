@@ -8,7 +8,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 var bodyParser = require('body-parser');
 var session = require('express-session');
 var service = require('./Server');
-var pass = require('./Pass');
+var pass = require('./util/Pass');
 var Service;
 (function (Service) {
     var AuthServer = (function (_super) {

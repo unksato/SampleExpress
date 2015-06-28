@@ -3,7 +3,7 @@
 
 import auth = require('./AuthServer');
 import service = require('./Server');
-import pass = require('./Pass');
+import pass = require('./util/Pass');
 
 /**
  * Server options

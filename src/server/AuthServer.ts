@@ -6,7 +6,7 @@ import bodyParser = require('body-parser');
 var session = require('express-session');
 
 import service = require('./Server');
-import pass = require('./Pass');
+import pass = require('./util/Pass');
 
 export module Service {
 

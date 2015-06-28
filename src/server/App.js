@@ -1,7 +1,7 @@
 /// <reference path="./AuthServer.ts"/>
 /// <reference path="../../typings/tsd.d.ts"/>
 var auth = require('./AuthServer');
-var pass = require('./Pass');
+var pass = require('./util/Pass');
 var options = {
     port: +process.argv[2],
     staticDirs: [{

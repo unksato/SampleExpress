@@ -30,7 +30,7 @@ export module Service {
 
     private static _PORT_LABEL : string = 'port';
 
-    private static _DEFAULT_PORT : number = 3333;
+    private static _DEFAULT_PORT : number = 8080;
 
     private static _API_DIR : string = path.join(__dirname , '/api');
 

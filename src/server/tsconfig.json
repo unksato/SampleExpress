@@ -17,8 +17,8 @@
     "files": [
         "./App.ts",
         "./AuthServer.ts",
-        "./Pass.ts",
         "./Server.ts",
-        "./api/Sample.ts"
+        "./api/Sample.ts",
+        "./util/Pass.ts"
     ]
 }
